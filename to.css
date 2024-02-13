@@ -1,0 +1,41 @@
+body{
+    background-color: lightslategray;
+}
+.heading{
+    box-sizing: border-box;
+    background-color: blue;
+    color: white;
+    padding-bottom: 50px;
+    justify-content:center;
+    align-items: center;
+    padding-left: 550px;
+    padding-top: 30px;
+}
+.form{
+    justify-content: center;
+    align-items: center;
+    margin:0px 50px 30px 400px;
+}
+.list{
+    margin:0px 200px 100px 400px;
+    box-sizing: border-box;
+    border: 1px solid black;
+    border-radius: 5PX;
+    padding-top: 0px;
+}
+.list ul{
+    position: relative;
+    padding: 7px;
+    display: flex;
+    text-align: left;
+    border: 1px solid black;
+    justify-content: space-between;
+    margin: 15px;
+    color: whitesmoke;
+    background-color: black;
+    list-style: none;
+    border-radius: 5px;
+}
+.button:hover{
+    background-color: rgb(144, 120, 96);
+}
